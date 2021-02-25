@@ -8,13 +8,13 @@
     $id = $update["message"]["from"]["id"];
     $username = $update["message"]["from"]["username"];
     $firstname = $update["message"]["from"]["first_name"];
-    $bot_name = "" ;//your bot name
+    $bot_name = "Gay bot" ;//your bot name
  /// for broadcasting in Channel
-$channel_id = "-1001351780832"; 
+$channel_id = "-1001461492351"; 
 
     //Extact match Commands
     if($message == "/start"){
-        send_message($chat_id, "Hey $firstname I am $bot_name \nSupport Group - @world_bots \nUse /cmds to view commands \nBot developed by @reboot13 ");
+        send_message($chat_id, "Hey $firstname I am $bot_name \nSupport Group - @Makepossiblex \nUse /cmds to view commands \nBot developed by @Aamir_2x ");
     }
 
     if($message == "/cmds"){
