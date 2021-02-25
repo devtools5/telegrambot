@@ -30,7 +30,7 @@ $channel_id = "-1001461492351";
           \n/time (current time)
           \n/git <username>
           \n/info (User Info)
-          \n/donate (Donate to Creator)
+          \n/donate (Donate if you're rich)
           ");
     }
 
@@ -52,7 +52,7 @@ $channel_id = "-1001461492351";
     }
 
 if($message == "/help"){
-        send_message($chat_id, "Contact @Reboot13");
+        send_message($chat_id, "Contact @aamir_2x");
     }
 if($message == "/donate"){
         send_message($chat_id, "https://reboot13.hashnode.dev/donate");
@@ -361,7 +361,7 @@ else {
 
      ///Send Message (Global)
     function send_message($chat_id, $message){
-        $apiToken =  "1314849002:AAEUJbFeYazvjKblCT2Xohl2GMRG18Wv8Zg";
+        $apiToken =  "1641050501:AAF0Pj5rDqI375hq6l1EINenR8PNU3kPTN4";
         $text = urlencode($message);
         file_get_contents("https://api.telegram.org/bot$apiToken/sendMessage?chat_id=$chat_id&text=$text");
     }
